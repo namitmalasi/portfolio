@@ -1,0 +1,45 @@
+.project-card {
+  display: inline-block;
+  margin-left: 80px;
+  margin-right: 50px;
+  margin-top: 20px;
+  width: 30%;
+  padding: 25px;
+  overflow: auto;
+}
+
+.project-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.project-tags {
+  display: flex;
+  max-width: 60%;
+  flex-wrap: wrap;
+}
+.tag {
+  padding: 4px 8px;
+  background-color: aquamarine;
+  border-radius: 4px;
+  margin-right: 6px;
+  margin-bottom: 4px;
+}
+.project-links a {
+  text-decoration: none;
+  color: black;
+}
+.project-links {
+  margin-top: 6px;
+  display: flex;
+}
+.link-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  width: max-content;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 6px;
+}
