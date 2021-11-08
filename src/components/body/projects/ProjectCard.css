@@ -1,7 +1,7 @@
 .project-card {
   display: inline-block;
-  margin-left: 80px;
-  margin-right: 50px;
+  margin-left: 70px;
+  margin-right: 40px;
   margin-top: 20px;
   width: 30%;
   padding: 25px;
@@ -13,8 +13,8 @@
   font-weight: 600;
 }
 .project-tags {
+  max-width: 80%;
   display: flex;
-  max-width: 60%;
   flex-wrap: wrap;
 }
 .tag {
@@ -23,6 +23,7 @@
   border-radius: 4px;
   margin-right: 6px;
   margin-bottom: 4px;
+  overflow: auto;
 }
 .project-links a {
   text-decoration: none;
@@ -42,4 +43,22 @@
   border-radius: 4px;
   font-size: 16px;
   margin-right: 6px;
+}
+
+@media only screen and (max-width: 720px) {
+  .project-card {
+    display: flex;
+    width: 55%;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    font-size: 19px;
+  }
+  .tag {
+    font-size: 17px;
+  }
+  .link-button {
+    font-size: 17px;
+  }
 }

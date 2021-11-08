@@ -4,7 +4,7 @@ export const ProjectData = [
     title: "Random Project",
     about:
       "jfsdf sjkdnf junudsf jnf hadbfuhjksdfn ujdfn sdufiba fuabf adjucbasf asnf kja",
-    tags: ["reactjs", "nodejs"],
+    tags: ["reactjs", "nodejs", "asdasdad", "asdasdasd"],
     demo: "sfisdfksdf",
     github: "dzfadfsdf",
     image: "httpdknfafkdsnfn",
