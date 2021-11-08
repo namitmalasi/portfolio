@@ -12,21 +12,20 @@ function Mobile({ isOpen, setIsOpen }) {
         <img src={close} alt="images"></img>
       </div>
 
-      <div className="mobile-options">
+      <div className="mobile-options" onClick={() => setIsOpen(!isOpen)}>
+        >
         <div className="mobile-option">
-          <a href="#project">
+          <a href="#projects">
             <img className="option-icon" src={project} alt="images"></img>
             Projects
           </a>
         </div>
-
         <div className="mobile-option">
           <a href="#skills">
             <img className="option-icon" src={skills} alt="images"></img>
             Skills
           </a>
         </div>
-
         <div className="mobile-option">
           {" "}
           <a href="#contact">

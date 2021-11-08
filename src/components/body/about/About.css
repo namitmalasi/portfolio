@@ -17,12 +17,36 @@
   color: blue;
   font-size: 32px;
 }
-
+.about-resume {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 22%;
+  background-color: aquamarine;
+  padding: 8px 16px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.about-resume a {
+  text-decoration: none;
+  color: black;
+}
 @media only screen and (max-width: 720px) {
   .about-top {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .about-resume {
+    margin: auto;
+    margin-top: 15px;
   }
 }
