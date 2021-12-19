@@ -13,7 +13,6 @@ function Mobile({ isOpen, setIsOpen }) {
       </div>
 
       <div className="mobile-options" onClick={() => setIsOpen(!isOpen)}>
-        >
         <div className="mobile-option">
           <a href="#projects">
             <img className="option-icon" src={project} alt="images"></img>
