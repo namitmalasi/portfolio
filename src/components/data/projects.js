@@ -18,8 +18,8 @@ export const ProjectData = [
     github: "https://github.com/namitmalasi/Crypto-Hunter",
   },
   {
-    id: 2,
-    title: "Random Project",
+    id: 2,  
+    title: "Socials",
     about:
       "jfsdf sjkdnf junudsf jabcjashufbad ujbfhdbgd uhddc uabschjasbubcasuc  jnf",
     tags: ["reactjs", "nodejs"],
